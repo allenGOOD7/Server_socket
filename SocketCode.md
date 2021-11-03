@@ -41,7 +41,6 @@ import javax.swing.Timer;
  */
  
 public class NewJFrame extends javax.swing.JFrame {
-    //static Socket s;
     static ServerSocket ss;
     static InputStreamReader isr;
     static BufferedReader br;
