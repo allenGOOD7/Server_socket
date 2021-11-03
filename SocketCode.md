@@ -5,7 +5,7 @@
  */
  /**
  @author allen
- /
+ **/
  
  
 package javaapplication2;
@@ -39,7 +39,8 @@ import javax.net.ssl.SSLServerSocketFactory;
 import javax.net.ssl.SSLSocket;
 import javax.swing.Timer;
  
-public class NewJFrame extends javax.swing.JFrame {
+public class NewJFrame extends javax.swing.JFrame 
+{
     static ServerSocket ss;
     static InputStreamReader isr;
     static BufferedReader br;
