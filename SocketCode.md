@@ -3,6 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+ /**
+ *
+ * @author allen
+ */
  
 package javaapplication2;
 import java.awt.Desktop;
@@ -34,11 +38,6 @@ import javax.net.ssl.SSLServerSocket;
 import javax.net.ssl.SSLServerSocketFactory;
 import javax.net.ssl.SSLSocket;
 import javax.swing.Timer;
-
-/**
- *
- * @author allen
- */
  
 public class NewJFrame extends javax.swing.JFrame {
     static ServerSocket ss;
