@@ -243,7 +243,7 @@ public class NewJFrame extends javax.swing.JFrame {
                     
                         byte[] buf = new byte[1024];
                         int len = 0;
-                        //往字节流里写图片数据
+                        //往字節流裡面讀取數據
                         while ((len = in.read(buf)) != -1)
                         {
                                 fos.write(buf,0,len);                        
