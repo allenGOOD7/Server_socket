@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
  /**
- *
- * @author allen
- */
+ @author allen
+ /
+ 
  
 package javaapplication2;
 import java.awt.Desktop;
