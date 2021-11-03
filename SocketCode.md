@@ -6,8 +6,8 @@
  /**
  @author allen
  **/
- 
- 
+
+
 package javaapplication2;
 import java.awt.Desktop;
 import java.io.BufferedInputStream;
@@ -198,8 +198,7 @@ public class NewJFrame extends javax.swing.JFrame
                 Socket s = ss.accept();                             
                 ///////////
                 InputStream in = s.getInputStream();
-                
-                                
+                 
                 int content;
                 //裝載檔名的陣列
                 byte[] c = new byte[1024];
@@ -310,7 +309,6 @@ public class NewJFrame extends javax.swing.JFrame
 
                             jTextArea1.setText(jTextArea1.getText() + "\n" + "等待計算......");
 
-
                             System.out.println("等待計算");
 
                             String freshnum = showresult();
@@ -332,12 +330,10 @@ public class NewJFrame extends javax.swing.JFrame
                 {
                     System.out.println("駭客讀取！"); 
                 }
-                
                 //關閉資源
 		in.close();
 		s.close();
-		//ss.close();
-                        
+		//ss.close(); 
             }
             
         } 
@@ -346,7 +342,6 @@ public class NewJFrame extends javax.swing.JFrame
         }    
     }
        
-
     // Variables declaration - do not modify                     
     private javax.swing.JScrollPane jScrollPane1;
     private static javax.swing.JTextArea jTextArea1;
